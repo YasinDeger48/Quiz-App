@@ -1,0 +1,310 @@
+﻿<em><!DOCTYPE HTML>
+<html>
+<head>
+<title>Documentation by "Bytotech Solution"</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+<section id="header">
+  <header><span class="image avatar"><img src="images/quiz_logo.png" alt="" /></span>
+    <h4 id="logo"><a href="#">OnlineQuiz application.</a></h4>
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="#one" class="active">Table of Contents</a></li>
+    </ul>
+  </nav>
+  <footer>
+    <ul class="icons">
+      <li><a href="https://www.facebook.com/bytotechsolution/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      
+      <li><a href="https://in.linkedin.com/company/bytotech-solution" target="_blank" class="icon fa fa-linkedin"><span class="label">Instagram</span></a></li>
+      
+    </ul>
+  </footer>
+</section>
+<div id="wrapper">
+<div id="main">
+<section id="one">
+<div class="container">
+<br>
+<header class="major">
+  <h3 style="color:#8C04FF">OnlineQuiz application.</h3> 
+</header>
+<div class="borderTop">
+  <div class="span-6 colborder info prepend-1">
+    <p class="prepend-top"> <strong> Created: 04 Feb. 2020<br>
+      Company: Bytotech Solution<br>
+      
+  </div>
+  </div>
+  <div class="span-12 last">
+    <p class="prepend-top append-0">Thank you for purchasing the app.please follow the document for make changes in your App</p>
+ </div>
+<h1 id="toc" > Table of Contents</h1>
+
+<li><a href='#importproject' style="color:#8C04FF">How to open the project in Android Studio?</a></li>
+<li><a href='#packagename' style="color:#8C04FF">How to change the package name?</a></li>
+<li><a href='#appname' style="color:#8C04FF">How to change app name?</a></li>
+<li><a href='#serverurl' style="color:#8C04FF">Where to put Server Url in Application?</a></li>
+<li><a href='#rtl' style="color:#8C04FF">How to enable/disable RTL?</a></li>
+<li><a href='#splash' style="color:#8C04FF">How to change Splash Screen, Application Icon and Other icons?</a></li>
+<li><a href='#push_noti' style="color:#8C04FF">How to Change Onesignal Details?</a></li>
+<li><a href='#admob' style="color:#8C04FF">How to Change AdMob Details?</a></li>
+<li><a href='#ids' style="color:#8C04FF">How to change Firebase legacy server key?</a></li>
+<li><a href="#credits" style="color:#8C04FF">Credits</a></li>
+
+<section id="importproject">
+   <div class="container"> <br>
+            <h2>How to open the project in Android Studio? </h2>
+            <ul>
+              <li>Open Android Studio > Open an Existing Android Studio Project > Select Your Project build.gradle file > ok </li>
+              <li> Select Project </li>
+            </ul>
+            <a class="lightbox" href="#images_three"> <img src="images/Start.png" alt=""/> </a>
+            <div class="lightbox-target" id="images_three"> <img src="images/Start.png" alt=""/> <a class="lightbox-close" href="#importproject"></a> </div>
+            <a class="lightbox" href="#images_four"> <img src="images/start project.png" alt=""/> </a>
+            <div class="lightbox-target" id="images_four"> <img src="images/start project.png" alt=""/> <a class="lightbox-close" href="#importproject"></a> </div>
+            <div class="section_bdr"></div>
+          </div>
+</section>
+<section id="packagename">
+  <div class="container"> <br>
+    <h2>How to change the package name? </h2>
+    <p> You can change it easily from Android Studio. Here are the steps: 
+      You can change it easily from Android Studio. Here are the steps:
+    <ul>
+      <li>From manifeast file you can change package name of your app.</li>
+	  <li>Path : Onlinequiz > app > src > main > androidmanifast.xml</li>
+      <li>Follow screenshot for more detail.</li>
+
+      <br>
+      Note: When renaming com in Android Studio, it might give a warning. In such case, selectRename All.
+    </ul>
+    </p>
+    <a class="lightbox" href="#packagename_1"> <img src="images/packege name change1.png" alt=""/> </a>
+            <div class="lightbox-target" id="packagename_1"> <img src="images/packege name change1.png" alt=""/> <a class="lightbox-close" href="#packagename"></a> </div>
+           
+            <div class="section_bdr"></div>
+  </div>
+</section>
+
+<section id="appname">
+	<div class="container">
+		<br>
+		<h2>How to change app name? </h2>
+		<ul>
+			<li>Open Android Studio > Onlinequiz > res > values > strings.xml</li>
+			<li>Enter your app name inside <b>"app_name"</b> string tag:<br />
+		
+		</ul>	
+		<a class="lightbox" href="#app_name"> <img src="images/App Name Change.png" alt=""/> </a>
+		<div class="lightbox-target" id="app_name"> <img src="images/App Name Change.png" alt=""/> <a class="lightbox-close" href="#appname"></a> </div>
+	</div>
+</section>
+
+<div class="section_bdr"></div>
+
+<section id="serverurl">
+	<div class="container">
+		<br>
+		<h2>Where to put Server Url in Application? </h2>
+		<ul>
+			<li>Open Android Studio > Android > app > java > com.bytotech.OnlineQuiz > CommanClass > Constant </li>
+			
+			<li> Now if your Sever is http://www.xyz.com so your server url like that <br>
+			<b>http://www.xyz.com/</b> <br>
+		</ul>
+		</p>
+		<a class="lightbox" href="#serverurl_1"> <img src="images/Web url change.png" alt=""/> </a>
+		<div class="lightbox-target" id="serverurl_1"> <img src="images/Web url change.png" alt=""/> <a class="lightbox-close" href="#serverurl"></a> </div>
+		<br>
+	</div>
+</section>
+
+<div class="section_bdr"> </div>
+
+<section id="rtl">
+	<div class="container"> <br>
+		<h2>How to enable/disable RTL?</h2>
+		<ul>
+			<li>Open Android Studio > app > manifests > Andriodmanifeast.xml</li>
+			<li>Change isRTL to <b>true</b> if you want to enable or <b>false</b> if you want to disable</li>
+			<li>Change all the text below in your language</li>
+		</ul>
+		<a class="lightbox" href="#rtl_screen"> <img src="images/RTL Change enable disable.png" alt=""/> </a>
+		<div class="lightbox-target" id="rtl_screen"> <img src="images/RTL Change enable disable.png" alt=""/> <a class="lightbox-close" href="#rtl"></a> </div>
+		<br>
+	</div>
+</section>
+
+<div class="section_bdr"></div>
+<div class="section_bdr">
+
+<section id="splash">
+	<div class="container"> <br>
+		<h2>How to change Splash Screen, Application Icon and Other icons?</h2>
+		<p> <b>How To Change Application Icon</b>
+			<ul>
+				<li>Open Android Studio > app > res > all mipmap folder > <b>ic_launcher.png</b></li>
+				<li>Rename your square icon with <b>ic_launcher.png</b> and paste in mipmap folder</li>
+				<li>Open Android Studio > app > res > all mipmap folder > <b>ic_launcher_round.png</b></li>
+				<li>Rename your round icon with <b>ic_launcher_round.png</b> and paste in mipmap folder</li>
+				<li>Replace all icons with particular size in particular folder</li>
+			</ul>
+			<a class="lightbox" href="#appicon"> <img src="images/App icon change.png" alt=""/> </a>
+			<div class="lightbox-target" id="appicon"> <img src="images/App icon change.png" alt=""/> <a class="lightbox-close" href="#splash"></a> </div>
+
+			</br>
+			<b>How To Change Splash Screen</b>
+			<ul>
+				<li>Open Android Studio > app > res > drawable-nodpi > <b>splash_icon.png</b></li>
+				<li>Rename your splash screen image  with <b>splash_icon.png</b> and paste in drawable folder</li>
+			</ul>
+			<a class="lightbox" href="#splash"> <img src="images/Splash screen change.png" alt=""/> </a>
+			<div class="lightbox-target" id="splash"> <img src="images/Splash screen change.png" alt=""/> <a class="lightbox-close" href="#splash"></a> </div>
+			<br>			
+		</p>
+	</div>
+</section>
+    
+<div class="section_bdr"></div>
+	
+<section id="push_noti">
+	<div class="container"> <br>
+		<h2>How to Change Onesignal Details</h2>
+		<p> <b>Get your Google Server API key and project number.</b><br>
+			<a href='https://documentation.onesignal.com/docs/generate-a-google-server-api-key' style="color:#06F" target="_blank">https://documentation.onesignal.com/docs/generate-a-google-server-api-key</a><br>
+			<br>
+
+			<a class="lightbox" href="#onesignal_keys"> <img src="images/onesignal_keys.png" alt=""/> </a>
+			<div class="lightbox-target" id="onesignal_keys"> <img src="images/onesignal_keys.png" alt=""/><a class="lightbox-close" href="#push_noti"></a> </div>
+
+			<b>How to Change One Signal App Id</b>
+			<ul>
+				<li>Open Android Studio > app > build.gradle(Module:app)</li>
+				<li>Enter your Onesignal App id inside<b>"onesignal_app_id"</b> <br />
+			</ul>
+
+			<a class="lightbox" href="#notification_id"> <img src="images/One Signal Id Change.png" alt=""/> </a>
+			<div class="lightbox-target" id="notification_id"> <img src="images/One Signal Id Change.png" alt=""/><a class="lightbox-close" href="#push_noti"></a> </div>
+			<br>		
+			
+			
+		</p>
+	</div>
+</section>
+
+<div class="section_bdr"></div>
+	
+<section id="admob">
+	<div class="container"> <br>
+		<h2>How to Change AdMob Details?</h2>
+			<li>Change AdMob banner id</li>
+			
+			<a class="lightbox" href="#admob_id_web"> <img src="images/Banner Id change.png" alt=""/> </a>
+			<div class="lightbox-target" id="admob_id_web"> <img src="images/Banner Id change.png" alt=""/><a class="lightbox-close" href="#admob"></a> </div>
+
+			<li>Change AdMob Interstitial id</li>
+			
+			<a class="lightbox" href="#webside_admob"> <img src="images/Interstitial Id Change.png" alt=""/> </a>
+			<div class="lightbox-target" id="webside_admob"> <img src="images/Interstitial Id Change.png" alt=""/> <a class="lightbox-close" href="#admob"></a> </div>
+		</ol>
+	
+	</div>
+</section>
+
+
+<div class="section_bdr"></div>
+
+<section id="ids">
+	<div class="container"> <br>
+		<h2>How to change firebase legecy server key?</h2>
+			<li>Genrate firebase legecy server key</li>
+			<a class="lightbox" href="#firebase"> <img src="images/change firebase key.png" alt=""/> </a>
+			<div class="lightbox-target" id="firebase"> <img src="images/change firebase key.png" alt=""/><a class="lightbox-close" href="#admob"></a> </div>
+
+			
+				<li>Open quiz folder > open config.php file change key</li>
+				<a class="lightbox" href="#firebase_con"> <img src="images/configfile.png" alt=""/> </a>
+				<div class="lightbox-target" id="firebase_con"> <img src="images/configfile.png" alt=""/><a class="lightbox-close" href="#admob"></a> </div>
+
+				<li>Open quiz folder > open firebase.php file change key</b> <br />
+				<a class="lightbox" href="#firebase_in"> <img src="images/firebase.php_filekeychange.png" alt=""/> </a>
+				<div class="lightbox-target" id="firebase_in"> <img src="images/firebase.php_filekeychange.png" alt=""/><a class="lightbox-close" href="#admob"></a> </div>			
+				
+				
+				<li>Open quiz folder > open api.php file change key</b> <br />
+				<a class="lightbox" href="#firebase_ap"> <img src="images/firebase_id_change_apifile.png" alt=""/> </a>
+				<div class="lightbox-target" id="firebase_ap"> <img src="images/firebase_id_change_apifile.png" alt=""/><a class="lightbox-close" href="#admob"></a> </div>
+		
+		</ol>	
+	</div>
+</section>
+
+
+<div class="section_bdr"></div>
+
+<section id="credits">
+  <div class="container"> <br>
+    <h2>Credits</h2>
+    <p>I've used folowing sources into this app:
+    <ul>
+	  <li>Google Support Library</li>
+      <li>OneSignal</li>
+      <li>Admob</li>
+      <li>Ad Consent</li>
+      <li>facebook</li>
+    
+    </ul>
+    <hr>
+    <p>Once again, thank you so much for purchasing this app. if you face any issue you can contact us via <span style="color:#ff7f00;font-style:italic">Skype - live:bytotechsolution</span> </p>
+    
+    <p><a style="color:#8C04FF" href="#toc">Go To Table of Contents</a></p>
+    
+    </ul>
+  </div>
+</section>
+</div>
+
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <ul class="copyright">
+      <li>
+        <h3><a href="http://bytotech.com/" target="_blank"><span style="color:#ff0000;font-style:italic">Bytotech Solution</span></a></h3>
+      </li>
+    
+    </ul>
+  </div>
+</section>
+</div>
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.scrollzer.min.js"></script> 
+<script src="assets/js/jquery.scrolly.min.js"></script> 
+<script src="assets/js/skel.min.js"></script> 
+<script src="assets/js/util.js"></script> 
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
+<script src="assets/js/main.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrollup').fadeIn();
+		} else {
+			$('.scrollup').fadeOut();
+		}
+	});
+	$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});
+</script>
+<div><a href="#" class="scrollup">Scroll</a></div>
+</body>
+</html>
+</em>
